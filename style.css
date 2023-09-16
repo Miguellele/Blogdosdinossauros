@@ -1,0 +1,97 @@
+body{
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    background: rgb(13,209,6);
+    background: linear-gradient(90deg, rgba(13,209,6,1) 37%, #1d0094 67%);
+    color:white;
+    font-weight: bold;
+
+}
+.container{
+    padding: 40px;
+}
+#banner{
+    background-image: url("https://maxiverso.com.br/wp-content/uploads/2023/06/BANNER-1024x596.jpg");  
+    background-position: center; 
+    width: 100%;
+    height: 400px;
+   }
+kbd{
+    padding: 10px;
+    
+}   
+h1,h2{
+    margin: 40px;
+}
+   
+p{
+    text-align: justify;
+    font-size: 22px;
+    margin-top: 20px;
+}
+#especies{
+    
+    background-image: url(imagens/7.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+   
+}
+
+#imgInicial{
+       width: 50%;
+       margin: 30px;
+       border-radius: 15px;
+}
+.dinoList{
+    text-align: justify;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    
+}
+.filmesHead{
+    background-color:#1d0094;
+    background: linear-gradient(90deg,#1d0094 37%,  #0dd106 67%);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+}
+.filmesHead span{
+    margin-right: 10px;
+}
+.fa{
+    float: right;
+    color:#1d0094;
+    font-size: larger;
+    margin-right: 20px;
+}
+.img-thumbnail{
+    width: 50%;
+    border-radius: 15px;
+}
+h5{
+    color: rgb(255, 213, 0);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#footer{
+    position: relative;
+    bottom: 0;
+    background-color: #2e2e2e;
+    font-size: 18px;
+    padding: 10px;
+    background-image: url("dino.png");
+    background-size: contain;
+    
+}
+#imgs_galeria img{
+    width: 30%;
+    max-height: 350px;
+    margin-right: 10px;
+}
